@@ -1,18 +1,66 @@
-# Tune Prism
+# Tune Prism: Professional Vocal Remover, Song Key Finder & BPM Detection Tool
 
-Split a track into 4 stems: vocals, drums, bass and others. Based on Facebook's HTDemucs model ([repo](https://www.google.com/search?q=demucs+facebook&oq=demucs+fac&sourceid=chrome&ie=UTF-8)).
+## The All-in-One Music Analysis & Separation Suite
 
+Tune Prism is a powerful desktop application that combines three essential music production tools:
 
-Built with Rust, Tauri, PyTorch and React. 
+1. **Advanced Vocal Remover** - Accurately extract vocals from any song
+2. **Precise Song Key Finder** - Instantly identify the musical key of your tracks
+3. **Professional BPM Finder** - Detect tempo with exceptional accuracy
 
-## Demo
-Simply drag a track in, extract stems and drag your stems out. 
+Split any track into 4 high-quality stems: vocals, drums, bass and other instruments. Powered by Facebook's state-of-the-art [HTDemucs model](https://github.com/adefossez/demucs).
+
+Built with Rust, Tauri, PyTorch and React for maximum performance and reliability.
+
+## ✨ Key Benefits
+
+- **100% FREE & Open Source** - Professional-grade audio tools at no cost
+- **Complete Privacy** - Works entirely offline with no data collection
+- **No Internet Required** - Process your music without an internet connection
+- **No Account Needed** - No sign-ups, subscriptions or hidden fees
+
+## Features
+
+### 🎤 Professional Vocal Remover
+- Extract crystal-clear vocals from any song
+- Create instrumental versions for karaoke or remixing
+- Isolate vocals for sampling or vocal practice
+- Perfect for DJs, producers, and music enthusiasts
+
+### 🎵 Song Key Finder
+- Instantly identify the musical key of any track
+- Improve your DJ mixes with harmonic mixing
+- Find compatible songs in complementary keys
+- Essential for musicians practicing with backing tracks
+
+### 🥁 BPM Finder
+- Accurately detect the tempo of any song
+- Perfect for DJs creating seamless transitions
+- Organize your music library by tempo
+- Sync tracks to video projects at the right speed
+
+## Demo: Easy-to-Use Interface
+Simply drag a track in, extract stems, identify key and BPM, then drag your stems out. No complicated setup required!
 
 https://github.com/user-attachments/assets/584cf59e-ef4b-4f24-913d-dc52d7549609
 
-
 ## Try it Out
-For M1 macs running MacOS, there's a prebuilt binary available on the releases page. Currently, that's the only platform I have built and tested the app on. Porting to other platforms is a bit of work and I only own a MacBook. If you can make the app run on Linux or Windows machines, I will happily accept your PR. 
+For M1 macs running MacOS, there's a prebuilt binary available on the releases page. Currently, that's the only platform we have built and tested the app on. Porting to other platforms is a bit of work and we only have MacBooks for testing. If you can make the app run on Linux or Windows machines, we will happily accept your PR.
+
+## Why Choose Tune Prism?
+
+- **Free Forever** - Unlike subscription-based alternatives that cost $10-20/month
+- **Protect Your Privacy** - Your audio never leaves your computer
+- **Open-Source Transparency** - Community-verified code you can trust
+- **No Internet Dependency** - Use anywhere, even without Wi-Fi
+- **Professional Quality** - Commercial-grade results without the price tag
+
+## Common Use Cases
+- **Music Producers**: Remove vocals to create remixes or isolate specific elements
+- **DJs**: Find the key and BPM of tracks to create harmonic mixes
+- **Singers**: Practice with instrumental versions of your favorite songs
+- **Content Creators**: Extract music elements for videos and podcasts
+- **Music Teachers**: Isolate instrument parts for educational purposes
 
 ## Building Locally
 
@@ -90,3 +138,6 @@ $ npm run tauri dev # for development
 # Contributing
 
 Just open a PR :)
+
+## Keywords
+vocal remover, song key finder, bpm finder, vocal extraction, stem separation, audio analysis tool, music production software, dj tools, remove vocals from songs, find song key, detect bpm, free vocal remover, open source audio tools, offline music analyzer
